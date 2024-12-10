@@ -40,4 +40,4 @@ async function autoCommit() {
 }
 
 // Run the autoCommit function every 10 minutes (600000 milliseconds)
-setInterval(autoCommit, 600000);
+setInterval(autoCommit, 1800000);
