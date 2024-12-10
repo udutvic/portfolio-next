@@ -3,6 +3,7 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import IconCloud from "./IconCloud";
+import { Globe } from "./ui/Globe"
 
 
 const slugs = [
@@ -81,7 +82,8 @@ const items = [
     title: "The Spirit of Adventure",
     description: "I'm very flexible with time zone communications",
     header: (
-      <Skeleton>        
+      <Skeleton>   
+        <Globe/>
       </Skeleton>
     ),
   },
