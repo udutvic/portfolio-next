@@ -4,6 +4,7 @@ import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import IconCloud from "./IconCloud";
 import { Globe } from "./ui/Globe"
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 
 const slugs = [
@@ -67,7 +68,16 @@ const items = [
   {
     title: "The Joy of Creation",
     description: "Tech enthusiast with a passion for development.",
-    header: <Skeleton />,
+    header: <Skeleton>
+      <TextGenerateEffect words={`import React from "react"; \n export function IconCloudDemo() { \n
+  return (
+    <div className="relative flex items-center justify-center overflow-hidden">
+      <IconCloud iconSlugs={slugs} />
+    </div>
+  );
+}
+`} />
+    </Skeleton>,
   },
   {
     title: "The Pursuit of Knowledge",
