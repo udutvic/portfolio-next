@@ -4,7 +4,7 @@ import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import IconCloud from "./IconCloud";
 import { Globe } from "./ui/Globe"
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+
 
 
 const slugs = [
