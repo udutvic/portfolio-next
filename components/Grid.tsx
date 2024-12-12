@@ -70,7 +70,7 @@ const items = [
     description: "Tech enthusiast with a passion for development.",
     header: <Skeleton>
       <TextGenerateEffect
-      words={`import React from "react";\n export function IconCloudDemo() {\n  return (\n    <div className="relative flex items-center justify-center overflow-hidden">\n      <IconCloud iconSlugs={slugs} />\n    </div>\n  );\n}\n`}
+      words={`import React from "react";\n export function IconCloudDemo() {\n  return (\n    <div className="relative flex items-center justify-center overflow-hidden">\n      <IconCloud iconSlugs={slugs} />\n    </div>\n  );\n}\n`} className="whiteSpace-pre-wrap" 
     />
     </Skeleton>,
   },
