@@ -5,8 +5,6 @@ import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import IconCloud from "./IconCloud";
 import { Globe } from "./ui/Globe"
 
-
-
 const slugs = [
   "appwrite",
   "css3",
@@ -31,7 +29,7 @@ const slugs = [
 
 export function IconCloudDemo() {
   return (
-    <div className="relative flex items-center justify-center overflow-hidden">
+    <div className="relative overflow-hidden">
       <IconCloud iconSlugs={slugs} />
     </div>
   );
